@@ -19,14 +19,14 @@ Setelah menempuh materi percobaan ini, mahasiswa mampu mengenal:
 ### Percobaan 1
 Mendemonstrasikan bagaimana membuat class, membuat object, kemudian mengakses method didalam class tersebut.
 
-![contoh screenshot](img/percobaan_1.PNG)
+![contoh screenshot](img/percobaan_1.png)
 
 Link kode program : [Link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720175Fajar.java)
 
 ### Percobaan 2
 Mendemonstrasikan fitur Inheritance dalam PBO.
 `
-![contoh screenshot](img/percobaan_2.PNG)
+![contoh screenshot](img/percobaan_2.png)
 
 Link kode program : [Link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720175Fajar.java)
 
@@ -45,17 +45,17 @@ Link kode program : [Link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepe
  4. Pada class Sepeda, terdapat state/atribut apa saja?
  mMerk,mKecepatan, dan mGear
  5. Tambahkan atribut warna pada class Sepeda.
- ![contoh screenshot](img/pertanyaan_5.PNG)
+ ![contoh screenshot](img/pertanyaan_5.png)
  6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?
  Karena kelas SepedaGunung merupakan kelas turunan dari kelas Sepeda, sehingga hanya perlu menambahkan beberapa atribut dan method yang diperlukan dan tidak ada pada kelas Sepeda.
  
 
 ## Tugas
 
- ![contoh screenshot](img/tugas_1.PNG)
+ ![contoh screenshot](img/tugas_1.png)
 Link kode program : [Link ke kode program](../../src/1_Pengantar_Konsep_PBO/Air1841720175Fajar.java)
  
- ![contoh screenshot](img/tugas_2.PNG)
+ ![contoh screenshot](img/tugas_2.png)
 Link kode program : [Link ke kode program](../../src/1_Pengantar_Konsep_PBO/AirRaksa1841720175Fajar.java)
 
 ## Kesimpulan

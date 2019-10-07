@@ -194,7 +194,7 @@ Link kode program Inheritance2: [Link ke kode program](../../src/6_Inheritance/p
 
 5. Perhatikan kode program dibawah ini yang terdapat pada class StaffTetap
 
-Terlihat dipotongan program diatas atribut gaju, lembur dan potongan dapat diakses langsung. Kenapa hal ini bisa terjadi dan bagainama class StaffTetap memiliki atribut gaji lembur, dan potongan padahal dalam class tersebut tidak dideklakarsikan atribut gaji, lembur, dan potongan?
+    Terlihat dipotongan program diatas atribut gaji, lembur dan potongan dapat diakses langsung. Kenapa hal ini bisa terjadi dan bagainama class StaffTetap memiliki atribut gaji lembur, dan potongan padahal dalam class tersebut tidak dideklakarsikan atribut gaji, lembur, dan potongan?
 
     Karena kelas StaffTetap merupakan kelas turunan dari kelas Staff sehingga ia bisa mengakses atribut dari kelas Staff dan superclassnya yang memiliki access modifier public atau protected.
 

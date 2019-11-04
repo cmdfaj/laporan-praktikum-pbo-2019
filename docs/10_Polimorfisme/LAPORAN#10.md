@@ -112,9 +112,9 @@ Link kode program Tester3: [klik disini](../../src/10_Polimorfisme/percobaan/Tes
 
 ![contoh screenshot](img/percobaan_4.png)
 
-Link kode program Tester4: [klik disini](../../src/10_Polimorfisme/percobaan/Owner1841720175Fajar.java)
+Link kode program Owner: [klik disini](../../src/10_Polimorfisme/percobaan/Owner1841720175Fajar.java)
 
-Link kode program : [klik disini](../../src/10_Polimorfisme/percobaan/Tester41841720175Fajar.java)
+Link kode program Tester4: [klik disini](../../src/10_Polimorfisme/percobaan/Tester41841720175Fajar.java)
 
 ### Pertanyaan Percobaan 4 
 
@@ -123,7 +123,6 @@ Link kode program : [klik disini](../../src/10_Polimorfisme/percobaan/Tester4184
     Karena kelas ElectricityBill dan PermanentEmployee mengimplements interface Payable sehingga objek-objek dari kedua kelas tersebut bisa dijadikan untuk mengisi suatu parameter yang memiliki tipe Payable pada suatu method.
 
 2. Jadi apakah tujuan membuat argument bertipe Payable pada
-
 method pay() yang ada di dalam class Owner?
 
     Tujuannya adalah agar semua kelas yang mengimplements interface Payable bisa digunakan untuk mengisi parameter.
@@ -133,13 +132,11 @@ method pay() yang ada di dalam class Owner?
     Terjadi error karena kelas InternshipEmployee tidak mengimplents interface Payable sehingga objeknya tidak bisa digunakan untuk mengisi nilai parameter method pay()
 
 4. Perhatikan class Owner, diperlukan untuk apakah sintaks p
-
 instanceof ElectricityBill pada baris ke-6 ?
 
     Sintaks tersebut digunakan untuk menyeleksi apakah nilai p yang dimasukkan apakah sama dengan ElectricityBill atau sama dengan PermanentEmployee. Nilai p akan bernilai sama dengan ElectricityBill jika yang dimasukkan adalah objek dari kelas ElectricityBill. Nilai p akan bernilai sama dengan PermanentEmployee jika objek yang dimasukkan adalah objek dari kelas PermanentEmployee.
 
 5. Perhatikan kembali class Owner baris ke-7, untuk apakah casting objek disana (ElectricityBill eb = (ElectricityBill) p)
-
 diperlukan ? Mengapa objek p yang bertipe Payable harus di-casting ke dalam objek eb yang bertipe ElectricityBill ?
 
     Proses casting tersebut diperlukan untuk mengakses method billGetInfo().
